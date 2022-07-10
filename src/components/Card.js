@@ -1,14 +1,16 @@
 import React from "react"
+import katiePhoto from "../images/katie-zaferes.png"
+import star from "../images/star.png"
 
 export default function Card() {
     return (
         <div className="card">
             <div>
-                <img src="../public/images/katie-zaferes.png" className="card--photo" />
+                <img src={katiePhoto} className="card--photo" />
                 <div className="card--tag">SOLD OUT</div>
             </div>
             <div className="row">
-                <img src="../public/images/star.png" className="card--star" />
+                <img src={star} className="card--star" />
                 <p>5.0</p>
                 <p className="gray">(6)</p>
                 <p className="gray">·</p>
